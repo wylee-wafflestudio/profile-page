@@ -16,7 +16,7 @@ function App() {
         <h2 className="name-en">Wooyeol Lee</h2>
         <p>컴퓨터공학부 20학번</p>
         <p>MBTI - INFJ</p>
-        <p>헬스와 식단하기가 취미입니다 🐮</p>
+        <p>헬스와 식단하기가 취미입니다 🏋️🍖</p>
         <p>3대 500이 되고 싶어요</p>
       </div>
 
