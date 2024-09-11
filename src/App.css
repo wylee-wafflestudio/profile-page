@@ -1,42 +1,69 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center; /* This centers the image horizontally */
+  margin-bottom: 15px;
+  padding: auto;
+}
+
+.profile-image {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.name-section h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 0px;
+}
+
+.name-section h2 {
+  font-size: 24px;
+  color: #777;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.name-section p {
+  font-size: 16px;
+  color: #555;
+  margin: 8px 0;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
 }
+
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  transform: scale(1.2);
 }
