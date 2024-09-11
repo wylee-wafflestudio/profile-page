@@ -6,7 +6,7 @@ function App() {
       <div className="profile-image-container">
         <img
           className="profile-image"
-          src="src/assets/profile-image.jpg"
+          src="/assets/profile-image.jpg"
           alt="Profile"
         />
       </div>
@@ -22,10 +22,10 @@ function App() {
 
       <div className="contact-section">
         <a href="mailto:wooyeol0519@snu.ac.kr">
-          <img className="logo" src="src/assets/gmail.svg" alt="Gmail Logo" />
+          <img className="logo" src="/assets/gmail.svg" alt="Gmail Logo" />
         </a>
         <a href="https://github.com/thisiswooyeol">
-          <img className="logo" src="src/assets/github.svg" alt="GitHub Logo" />
+          <img className="logo" src="/assets/github.svg" alt="GitHub Logo" />
         </a>
       </div>
     </div>
